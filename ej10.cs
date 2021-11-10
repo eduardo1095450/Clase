@@ -3,7 +3,7 @@
 
 namespace Clase
 {
-    class Ejercicio10
+    class ej10
     {
         static void Main(string[] args)
         {
