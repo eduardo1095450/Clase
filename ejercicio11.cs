@@ -20,7 +20,7 @@ namespace Clase
                 Suma(total, numeros);
                 Lista(lista, numeros);
                 Primo(numeros, 0, 0);
-                Total(numeros, 0)
+                Total(numeros, 0);
             }
 
             promedio = total / cantidad;
@@ -39,6 +39,8 @@ namespace Clase
         static private int Suma(int num1, int num2)
         {
             int suma = num1 + num2;
+            num1 = num2;
+            num2 = suma;
             return suma;
         }
         static private string Lista(string num1, int num2)
